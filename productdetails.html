@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Group</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./asset/css/slick.css">
+    <link rel="stylesheet" href="./asset/css/all.min.css">
+    <link rel="stylesheet" href="./asset/css/venobox.min.css">
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <link rel="stylesheet" href="./asset/css/responsive.css">
+
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navber">
+    <!-- =========================================================================  
+       navver start
+==================================================================================== -->
+    <header>
+        <div class="header">
+            <div class="container">
+                <div class="h-ptop d-flex" style="justify-content: space-between;">
+                    <p>Need help? Call us: (+98) 0234 456 789</p>
+                    <ul class="d-flex">
+                        <li><a href=""><i class="bi bi-geo-alt"></i> Our store</a></li>
+                        <li><a href=""><i class="bi bi-car-front"></i> Track your order</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="logo col-lg-2 col-md-2 col-4">
+                            <a href=""><img src="./asset/image/header/logo 1.png" class="w-100 img-fluid" alt=""></a>
+                        </div>
+                        <div class="form-controll col-xl-5 col-lg-5 col-md-5 col-8">
+                            <input type="text">
+                            <button class="btn">Search</button>
+                        </div>
+                        <div class="col-lg-5 col-xl-5 col-12 col-md-5 h-b-l text-white ">
+                            <ul class="d-flex ms-auto">
+                                <li><a href=""><i class="bi bi-person"></i>sign in</a></li>
+                                <li><a href=""><i class="bi bi-heart"></i>
+                                        <p>0</p> Wishlist
+                                    </a></li>
+                                <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                                    aria-controls="offcanvasRight"><a href="#"><i class="bi bi-cart3"></i>
+                                        <p>0</p> Cart
+                                    </a></li>
+
+
+                            </ul>
+                            <div class="offcanvas offcanvas-end main_cart text-black" tabindex="-1" id="offcanvasRight"
+                                aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header shop">
+                                    <h5 id="offcanvasRightLabel">SHOPPING CART</h5>
+                                    <button type="button" data-bs-dismiss="offcanvas" aria-label="Close">close <i
+                                            class="fas fa-long-arrow-alt-right"></i></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="row cart_row d-flex">
+                                        <div class="cart_text">
+                                            <h5>Beige knitted elas tic runner shose</h5>
+                                            <p>1 x <span>$25.68</span></p>
+                                        </div>
+
+                                        <div class="cart_images">
+                                            <i class="fas fa-times"></i>
+                                            <img src="./asset/image/latest/Blog-1_540x490_crop_center 1.png"
+                                                class="img-fluid w-100" alt="product-1">
+                                        </div>
+                                    </div>
+                                    <div class="row cart_row d-flex">
+                                        <div class="cart_text">
+                                            <h5>Beige knitted elas tic runner shose</h5>
+                                            <p>1 x <span>$25.68</span></p>
+                                        </div>
+
+                                        <div class="cart_images">
+                                            <i class="fas fa-times"></i>
+                                            <img src="./asset/image/latest/Blog-1_540x490_crop_center 1.png"
+                                                class="img-fluid w-100" alt="product-1">
+                                        </div>
+                                    </div>
+                                    <div class="row cart_row_1 d-flex">
+
+                                        <div class="total">
+                                            <h5>Subtotal: </h5>
+                                        </div>
+                                        <div class="total_price">
+                                            <p>$58.67</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12 p-0">
+                                            <div class="cart_button">
+                                                <a href="cart.html" class="btn btn-rounded">View Cart</a>
+                                                <a href="cart.html" class="btn btn-rounded">checkout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <nav id="navbar" class="navbar  navbar-expand-md main-manu navigation">
+            <div class="container px-0">
+                <div class="category-part">
+                    <p>Browse categories <i class="bi bi-chevron-down"></i></p>
+                </div>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-distribute-vertical"></i>
+                </button>
+                <div class="navbar-nav collapse pera kopal  navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#banner">Home <i class="bi bi-chevron-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#banner">Cataloge <i class="bi bi-chevron-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#banner">Blog <i class="bi bi-chevron-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#banner">Pages <i class="bi bi-chevron-down"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#banner">About us <i class="bi bi-chevron-down"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- =========================================================================  
+           navver start
+==================================================================================== -->
+    <!-- =========================================================================  
+                              main part start
+==================================================================================== -->
+    <main>
+        <!-- =========================================================================  
+                             product dtals part  start
+==================================================================================== -->
+
+        <section id="product-dtails">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="slider-f slider-for d-flex">
+                            <div class="img-part">
+                                <img src="./asset/image/product dtails/ghy.png" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="img-part">
+                                <img src="./asset/image/product dtails/Frame 142.png" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="img-part">
+                                <img src="./asset/image/product dtails/Frame 142.png" class="img-fluid w-100" alt="">
+                            </div>
+                        </div>
+                        <div class="slider-b d-flex slider-nav">
+                            <div class="img-part">
+                                <img src="./asset/image/product dtails/ghy.png" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="img-part">
+                                <img src="./asset/image/product dtails/Frame 142.png" class="img-fluid w-100" alt="">
+                            </div>
+                            <div class="img-part">
+                                <img src="./asset/image/product dtails/Frame 142.png" class="img-fluid w-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="product-details">
+                            <h5>Play game</h5>
+                            <ff class="ff">$90.88</ff>
+                            <div class="review d-flex">
+                                <ul class="d-flex">
+                                    <li><a href=""><i class="bi bi-star"></i></a></li>
+                                    <li><a href=""><i class="bi bi-star"></i></a></li>
+                                    <li><a href=""><i class="bi bi-star"></i></a></li>
+                                    <li><a href=""><i class="bi bi-star"></i></a></li>
+                                    <li><a href=""><i class="bi bi-star"></i></a></li>
+                                </ul>
+                                <p>0 review</p>
+                            </div>
+                            <div class="stock">
+                                <p>Availability: <span>instock</span></p>
+                            </div>
+                            <tik class="tik">Hurry up! only 34 product left in stock!</tik>
+                        </div>
+                        <div class="order-details">
+                            <div class="color-part d-flex">
+                                <h5>color:</h5>
+                                <ul class="d-flex">
+                                    <li></li>
+                                    <li class="red"></li>
+                                </ul>
+                            </div>
+                            <div class="size-part d-flex">
+                                <h5>size:</h5>
+                                <ul class="d-flex">
+                                    <li>65</li>
+                                    <li>65</li>
+                                    <li>65</li>
+                                    <li>65</li>
+                                </ul>
+                            </div>
+                            <div class="quantity d-flex">
+                                <h5>Quantity:</h5>
+                                <form action="#">
+                                    <div class="quantity_input">
+                                        <button type="button" class="input_number_decrement">
+                                            <i class="bi bi-dash"></i>
+                                        </button>
+                                        <input class="input_number" type="text" value="1">
+                                        <button type="button" class="input_number_increment">
+                                            <i class="fal fa-plus"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="order-l">
+                                <div class="btn"><img src="./asset/image/product dtails/Frame 137.png"
+                                        class="w-100 img-fluid" alt=""></div>
+                                <div class="btn"><img src="./asset/image/product dtails/Frame 6.png"
+                                        class="w-100 img-fluid" alt=""></div>
+                                <div class="btn"><img src="./asset/image/product dtails/Frame 138.png"
+                                        class="w-100 img-fluid" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="social">
+                            <p>Sku: <span>01133-9-9</span></p>
+                            <div class="catrgory">
+                                <p>Category: <span>20% off,</span> <span>49% off</span></p>
+                            </div>
+                            <div class="social-main d-flex">
+                                <h5>Share:</h5>
+                                <ul class="d-flex">
+                                    <li><a href=""><i class="fa-brands fa-google-plus-g"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12  mt-5">
+                        <div class="img-part-bottom">
+                            <a href=""> <img src="./asset/image/product dtails/Frame 149.png" alt=""></a>
+                            <a href=""> <img src="./asset/image/product dtails/Frame 148.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12  mt-5">
+                        <div class="customer-review">
+                            <h5>Customer reviews</h5>
+                            <p>No reviews yet</p>
+                            <a href=""><img src="./asset/image/product dtails/Frame 151.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================================  
+                             product dtals part end
+==================================================================================== -->
+        <!-- =========================================================================  
+                             related part start
+==================================================================================== -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="related-product">
+                            <div class="related-header">
+                                   <img src="./asset/image/product dtails/Related product.png" alt="">
+                            </div>
+                            <ul class="d-flex flex-wrap">
+                                <li class="ul-li">
+                                    <div class="card">
+                                        <a href=""> <i class="icon bi bi-heart"></i></a>
+                                        <div class="img-part">
+                                            <a href="productdetails.html"><img src="./asset/image/mixinit/camera 1.png"
+                                                    class="w-100 img-fluid" alt=""></a>
+                                        </div>
+                                        <div class="card-text">
+                                            <a href="productdetails.html">Hand Base Lamp</a>
+                                            <p>$89</p>
+                                            <ul class="d-flex">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                        <div class="hd">
+                                            <div class="hidden-text d-flex" style="justify-content: space-between;">
+                                                <div class="h-t1">
+                                                    <a href="productdetails.html" class="d-flex"
+                                                        style="justify-content: space-between;">add to
+                                                        card <p><i class="bi bi-cart3"></i></p> </a>
+                                                </div>
+                                                <div class="h-t2">
+                                                    <a href=""> <i class="bi bi-eye"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li class="ul-li">
+                                    <div class="card">
+                                        <a href=""> <i class="icon bi bi-heart"></i></a>
+                                        <div class="img-part">
+                                            <a href=""><img src="./asset/image/mixinit/camera 1.png"
+                                                    class="w-100 img-fluid" alt=""></a>
+                                        </div>
+                                        <div class="card-text">
+                                            <a href="">Hand Base Lamp</a>
+                                            <p>$89</p>
+                                            <ul class="d-flex">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                        <div class="hd">
+                                            <div class="hidden-text d-flex" style="justify-content: space-between;">
+                                                <div class="h-t1">
+                                                    <a href="" class="d-flex"
+                                                        style="justify-content: space-between;">add to
+                                                        card <p><i class="bi bi-cart3"></i></p> </a>
+                                                </div>
+                                                <div class="h-t2">
+                                                    <a href=""> <i class="bi bi-eye"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li class="ul-li">
+                                    <div class="card">
+                                        <a href=""> <i class="icon bi bi-heart"></i></a>
+                                        <div class="img-part">
+                                            <a href=""><img src="./asset/image/mixinit/camera 1.png"
+                                                    class="w-100 img-fluid" alt=""></a>
+                                        </div>
+                                        <div class="card-text">
+                                            <a href="">Hand Base Lamp</a>
+                                            <p>$89</p>
+                                            <ul class="d-flex">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                        <div class="hd">
+                                            <div class="hidden-text d-flex" style="justify-content: space-between;">
+                                                <div class="h-t1">
+                                                    <a href="" class="d-flex"
+                                                        style="justify-content: space-between;">add to
+                                                        card <p><i class="bi bi-cart3"></i></p> </a>
+                                                </div>
+                                                <div class="h-t2">
+                                                    <a href=""> <i class="bi bi-eye"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li class="ul-li">
+                                    <div class="card">
+                                        <a href=""> <i class="icon bi bi-heart"></i></a>
+                                        <div class="img-part">
+                                            <a href=""><img src="./asset/image/mixinit/camera 1.png"
+                                                    class="w-100 img-fluid" alt=""></a>
+                                        </div>
+                                        <div class="card-text">
+                                            <a href="">Hand Base Lamp</a>
+                                            <p>$89</p>
+                                            <ul class="d-flex">
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                                <li><i class="fas fa-star"></i></li>
+                                            </ul>
+                                        </div>
+                                        <div class="hd">
+                                            <div class="hidden-text d-flex" style="justify-content: space-between;">
+                                                <div class="h-t1">
+                                                    <a href="" class="d-flex"
+                                                        style="justify-content: space-between;">add to
+                                                        card <p><i class="bi bi-cart3"></i></p> </a>
+                                                </div>
+                                                <div class="h-t2">
+                                                    <a href=""> <i class="bi bi-eye"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </li>
+
+
+
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =========================================================================  
+                            related part end
+==================================================================================== -->
+
+        <!-- =========================================================================  
+                              news part end
+==================================================================================== -->
+
+    </main>
+
+    <!-- =========================================================================  
+                              main part end
+==================================================================================== -->
+
+    <!-- =========================================================================  
+                              footer part start
+==================================================================================== -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 d-flex f-t-top" style="justify-content: space-around;">
+                    <div class="img-part">
+                        <img src="./asset/image/footer/Subscribe newsletter.png" class="img-fluid w-100" alt="">
+                    </div>
+                    <form action="">
+                        <input type="text" placeholder="Email Address">
+                        <button type="submit"><i class="bi bi-send"></i></button>
+                    </form>
+                    <div class="col-part d-flex">
+                        <div class="img-part">
+                            <img src="./asset/image/footer/Vector.png" class="img-fluid w-100" alt="">
+                        </div>
+                        <div class="col-text">
+                            <ul>
+                                <li>Call us 24/7 :</li>
+                                <li>(+62) 0123 567 789</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-12 f-1">
+                    <img src="./asset/image/footer/47ff8a81f26150f9f4851caea4cc5b94.png" alt="">
+                    <p>64 st james boulevard <br>
+                        hoswick , ze2 7zj</p>
+                    <ul class="d-flex">
+                        <li><a href=""><i class="bi bi-google"></i></a></li>
+                        <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                        <li><a href=""><i class="bi bi-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 f-2">
+                    <h5>Find product</h5>
+                    <ul>
+                        <li><a href="">Brownze arnold</a></li>
+                        <li><a href="">Chronograph blue</a></li>
+                        <li><a href="">Smart phones</a></li>
+                        <li><a href="">Automatic watch</a></li>
+                        <li><a href="">Hair straighteners</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 f-2">
+                    <h5>Get help</h5>
+                    <ul>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact us</a></li>
+                        <li><a href="">Return policy</a></li>
+                        <li><a href="">Privacy policy</a></li>
+                        <li><a href="">Payment policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12 f-2">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Our policy</a></li>
+                        <li><a href="">Custmer care</a></li>
+                        <li><a href="">Faq’s</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- =========================================================================  
+                              footer part end
+==================================================================================== -->
+
+
+    <script src="./asset/js/jquery-1.12.4.min.js"> </script>
+    <script src="./asset/js/slick.min.js"> </script>
+    <script src="./asset/js/bootstrap.bundle.min.js"> </script>
+    <script src="./asset/js/jquery.nicescroll.min.js"> </script>
+    <script src="https://kit.fontawesome.com/583a2364d2.js" crossorigin="anonymous"></script>
+    <script src="./asset/js/jquery.counterup.min.js"></script>
+    <script src="./asset/js/waypoints.min.js"></script>
+    <script src="./asset/js/venobox.min.js"></script>
+    <script src="./asset/js/script.js"> </script>
+    <script>
+        (function () {
+            window.inputNumber = function (el) {
+                var min = el.attr("min") || false;
+                var max = el.attr("max") || false;
+
+                var els = {};
+
+                els.dec = el.prev();
+                els.inc = el.next();
+
+                el.each(function () {
+                    init($(this));
+                });
+
+                function init(el) {
+                    els.dec.on("click", decrement);
+                    els.inc.on("click", increment);
+
+                    function decrement() {
+                        var value = el[0].value;
+                        value--;
+                        if (!min || value >= min) {
+                            el[0].value = value;
+                        }
+                    }
+
+                    function increment() {
+                        var value = el[0].value;
+                        value++;
+                        if (!max || value <= max) {
+                            el[0].value = value++;
+                        }
+                    }
+                }
+            };
+        })();
+        inputNumber($(".input_number"));
+        inputNumber($(".input_number_2"));
+    </script>
+</body>
+
+</html>
